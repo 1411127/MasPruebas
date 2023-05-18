@@ -4,8 +4,10 @@ public class MasPruebas {
     public static void main(String[] args) {
         System.out.println("Aquí voy a ver qué puedo programar.");
 
-        if (false)
-            System.out.println("Nada más solo quería ver.");
-        else System.out.println("Sigue la webonada.");
+        for (String arg : args) {
+            System.out.println(arg);
+        }
+        //for(int i=0;i<args.length;i++)
+        //   System.out.println(args[i]);
     }
 }
